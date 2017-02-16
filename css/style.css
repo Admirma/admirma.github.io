@@ -1,5 +1,8 @@
 /*STYLE*/
-a{text-decoration:none; color:#000;}
+a{
+	text-decoration:none; 
+	color:#000;
+}
 body{font-family:'PT Sans', sans-serif;}
 
 
@@ -256,6 +259,7 @@ background-size: 35px 20px;
 .equipment-nav-list li a {
 	margin-bottom: 20px;
 	text-decoration: underline;
+	transition: 1s;
 }
 
  .equipment-offers-table tr td {
@@ -804,3 +808,17 @@ a:hover{
 .nav-bottom ul li a:hover{
 	color:#000;
 }
+
+.footer-a-index:hover, .header-a-index:hover{
+	background-color: transparent;
+
+}
+
+.equipment-nav-list li a:hover{
+	background-color: transparent;
+	position: relative;
+	top:2px;
+	left:5px;
+
+}
+
